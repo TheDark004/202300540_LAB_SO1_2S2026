@@ -15,7 +15,7 @@ import (
 
 const CARNET = "202300540" 
 const VM = "VM1"
-const API1_URL = "http://127.0.0.1:8081"        // misma VM1, localhost
+const API1_URL = "http://192.168.122.227:8081"  // misma VM1, localhost
 const API3_URL = "http://192.168.122.245:8083"  // VM2
 
 

@@ -14,7 +14,7 @@ import (
 
 const CARNET = "202300540" 
 const VM = "VM1"
-const API2_URL = "http://127.0.0.1:8082" // API2 corre en la misma VM1
+const API2_URL = "http://192.168.122.227:8082" // API2 corre en la misma VM1
 const API3_URL = "http://192.168.122.245:8083" // API3 corre en VM2
 
 
