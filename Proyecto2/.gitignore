@@ -1,0 +1,56 @@
+# =========================================================
+# Proyecto 2 - .gitignore
+# =========================================================
+
+# =========================
+# 1) Binarios compilados
+# =========================
+/daemon/daemon
+/daemon/*.exe
+/daemon/*.out
+
+# =========================
+# 2) Módulo del kernel generado por make
+# =========================
+/kernel-module/*.ko
+/kernel-module/*.o
+/kernel-module/*.mod
+/kernel-module/*.mod.c
+/kernel-module/*.cmd
+/kernel-module/*.symvers
+/kernel-module/modules.order
+/kernel-module/Module.symvers
+
+# =========================
+# 3) Datos de ejecución / volúmenes locales
+# =========================
+/grafana-valkey/grafana-data/
+/grafana-valkey/valkey-data/
+/grafana-valkey/*.log
+**/dump.rdb
+**/*.tmp
+**/tmp/
+**/.cache/
+
+# =========================
+# 4) Logs y temporales
+# =========================
+**/*.log
+**/*.pid
+**/*.bak
+**/*.swp
+**/*.swo
+**/*~
+
+# =========================
+# 5) Editor / sistema
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# 6) Docker local / caché
+# =========================
+**/*.tar
